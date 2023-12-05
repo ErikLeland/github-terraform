@@ -7,13 +7,13 @@ variable "rg_name" {
 variable "rg_location" {
     type = string
     description = "(optional) describe your variable"
-    dedefault = "westeurope"
+    default = "westeurope"
 }
 
 variable "sa_web_name" {
     type = string
     description = "(optional) describe your variable"
-    dedefault = "sawebejl"
+    default = "sawebejl"
 }
 
 variable "index_document" {
